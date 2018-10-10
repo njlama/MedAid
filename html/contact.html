@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" 
+          integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" 
+          crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
+
+    <title>Contact</title>
+  </head>
+  <body style="font-family: 'Nanum Gothic', sans-serif;">
+    
+    <nav class="navbar navbar-expand-lg navbar-light"
+          style="height: 8vh; background-color: #f2f2f2;">
+        <a class="navbar-brand px-4 mr-4" 
+            href="LandingPage.html"
+            style="padding: 5px; font-size: 25px">
+            MedAid
+        </a>
+        <button class="navbar-toggler" type="button" 
+                data-toggle="collapse" data-target="#navbarSupportedContent" 
+                aria-controls="navbarSupportedContent" 
+                aria-expanded="false" 
+                aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Physical Therapist</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Occupational Therapist</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Speech Therapist</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Patient Engagement
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Patient Education</a>
+                <a class="dropdown-item" href="#">Home Exercise Program</a>
+                <a class="dropdown-item" href="#">Health and Welness</a>
+                <a class="dropdown-item" href="#">Nutrition</a>
+              </div>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+  </nav>
+
+<section>
+    <div class="jumbotron jumbotron-fluid"
+          style="background-color: white; padding-top: 30px;">
+      <div class="text-center mb-4 tyMessage" style="padding-bottom: 15px;">
+        <h3 class="display-4" style="font-size: 30px">Med Bridge</h3>
+        <!-- <p>Support/Contact Form</p> -->
+      </div>
+
+
+      <form id="metAllRequirement">
+      <div class="container col-md-6">
+          <div class="form-group">
+            <label for="name" id="nameLabel">Name</label>
+            <input type="text" class="form-control" id="name" placeholder="John">
+          </div>
+
+          <div class="form-group">
+            <label for="email" id="emailLabel">Your Email</label>
+            <input type="text" class="form-control" id="email" placeholder="john-smith@gmail.com">
+          </div>
+
+          <div class="form-group">
+            <label for="subject" id="subjectLabel">Subject</label>
+            <input type="subject" class="form-control" id="subject" placeholder="I have A Problem">
+          </div>
+
+          <div class="form-group">
+            <label for="message" id="messageLabel">Message</label>
+            <textarea rows="5" class="form-control mb-4" id="message" placeholder="Type your message here!"></textarea> 
+          </div>
+
+          <input type="button" class="btn btn-info btnSeccion text-white" id="sendMessage" value="Send Message">
+      </div> 
+      </form>
+    </div>
+</section>
+
+    <script type="text/javascript" src="../js/contact.js"></script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+  </body>
+</html>

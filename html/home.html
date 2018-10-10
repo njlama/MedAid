@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+				integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+				crossorigin="anonymous">
+		<link rel="stylesheet" href="../css/homeStyle.css">
+		<link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
+    <title>Home</title>
+  </head>
+  <body class="home-body">
+   
+
+	<nav class="navbar navbar-expand-lg navbar-light navbar-fixed-top" 
+				style="position: fixed;right: 0px;left: 0px;top: 0;z-index: 100;">
+		<a class="navbar-brand px-4 mr-4" 
+				href="home.html">
+				MedAid
+		</a>
+		<button class="navbar-toggler" type="button" 
+				data-toggle="collapse" data-target="#navbarSupportedContent" 
+				aria-controls="navbarSupportedContent" 
+				aria-expanded="false" 
+				aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	    <ul class="navbar-nav mr-auto">
+	      <li class="nav-item">
+	        <a class="nav-link" href="#">Physical Therapist</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#">Occupational Therapist</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#">Speech Therapist</a>
+	      </li>
+	      <li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" 
+						id="navbarDropdown" role="button" 
+						data-toggle="dropdown" aria-haspopup="true" 
+						aria-expanded="false">
+	          Patient Engagement
+	        </a>
+	        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+	          <a class="dropdown-item" href="#">Patient Education</a>
+	          <a class="dropdown-item" href="#">Home Exercise Program</a>
+	          <a class="dropdown-item" href="#">Health and Welness</a>
+	          <a class="dropdown-item" href="#">Nutrition</a>
+	        </div>
+	      </li>
+	    </ul>
+	    <form class="form-inline my-2 my-lg-0">
+				<input class="form-control mr-sm-2" type="search" 
+								placeholder="Search" aria-label="Search">
+				<button class="btn btn-outline-success my-2 my-sm-0" 
+								type="submit">Search</button>
+			</form>
+
+			<ul class="nav navbar-nav navbar-right setting-style">
+					
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" 
+								data-toggle="dropdown" role="button" 
+								aria-haspopup="true" aria-expanded="false">
+								<img src="../img/settings.png" class="px-2">
+								<span class="caret"></span>
+						</a>
+						<ul class="dropdown-menu " style="left:-100px">
+							<li><a href="#">Account</a></li>
+							<li><a href="#">Settings</a></li>
+							<li><a href="LandingPage.html">Log out</a></li>
+						</ul>
+					</li>
+				</ul>
+	    
+	  </div>
+	</nav>
+
+
+	<div class="jumbotron jumbotron-fluid mb-0 main-jumbotron">
+	  <div class="container text-secondary">
+	    <h1 class="display-4">Home Exercise Program</h1>
+	    <p class="lead">
+				Happiness is not something ready made. 
+				It comes from your own actions.
+			</p>
+	    <p class="lead"> 
+				Your journey starts here.
+			</p>
+		 
+		</div>
+	</div>
+	<!-- /Jumbotron -->
+
+	<!-- Container for courses-->
+	<div class="bg-light" style="padding-top: 30px; background-color: white">
+		<div class="container" id="courseContainer">
+		</div>
+	</div>
+	
+	<footer>
+			<div class="jumbotron jumbotron-fluid">
+					<div class="container">
+						<!-- <h1 class="display-4">Footer </h1> -->
+						<p>For more info 
+								<a href="contact.html">Contact US</a>
+							</p>
+					</div>
+			</div>
+		</footer>
+
+
+	<!-- Model -->
+	<div class="modal fade bd-example-modal-lg" id="myModal" 
+			tabindex="-1" role="dialog" 
+			aria-labelledby="exampleModalLabel" 
+			aria-hidden="true">
+			<div class="modal-dialog modal-lg modal-dialog-centered" 
+						role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="modalTitle"></h5>
+						<button type="button" class="close" data-dismiss="modal" 
+								aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+							<div class="container">
+									<div class="modal-body">
+										<div class="text-center">
+											<img class="pull-left" src="../img/woman.jpg" alt="image">
+										</div>
+											<p id="modalDescription"></p>  
+									</div>			
+	<!-- /modal-body -->
+							</div>
+					</div>
+
+					
+					<div class="modal-footer">
+						<button type="button" class="btn btn-primary m-auto my-4" 
+										style = "width: 50%">Start Course</button>
+					</div>
+				</div>
+			</div>
+
+			
+		</div>
+		
+	
+		<script src="../js/home.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>

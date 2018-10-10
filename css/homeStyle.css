@@ -1,0 +1,43 @@
+.navbar{
+	color: rgba(255, 255,255, 0.85);
+	font-size: 1rem;
+    background-color: white;
+    height: 10vh;
+}
+
+body{
+    letter-spacing: 1.2px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+ul.setting-style a{
+    color: grey;  
+}
+
+ul a:hover {
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+ul.setting-style ul{
+  
+    padding: 5px 10px;
+    padding-top: 20px;
+    height: 125px;
+}
+
+ul.setting-style ul a {
+    padding-top: 10px;
+}
+
+footer div.jumbotron{
+	margin-bottom: 0px;
+}
+
+div.main-jumbotron{
+    height: 47vh;
+}
+
+div.main-jumbotron .container{
+    padding-top: 30px;
+}

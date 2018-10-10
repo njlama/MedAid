@@ -1,0 +1,48 @@
+body{
+	letter-spacing: 1.2px;
+	font-family: 'Nanum Gothic', sans-serif;
+}
+
+.navbar{
+	/* color: rgba(255, 255,255, 0.85); */
+	font-size: 1rem;
+	background-color: white;
+	padding-top: 15px;
+}
+
+#carouselExampleControls{
+	margin-top: 63px;
+	height: 405px;
+}
+
+div#second-jumbotron{
+	margin-top: 120px;
+	padding: 30px 0;
+	height: 55vh;
+}
+
+div.subscribe-div{
+	/* background: red; */
+	margin-top:20px;
+	display: flex;
+	justify-content: space-around;
+}
+
+div h3{
+	font-size: 26px;
+	font-weight: 300;
+	color: #6c757d;
+}
+
+footer div.jumbotron{
+	margin-bottom: 0px;
+}
+
+/* @media (min width: 960px){ */
+
+	/*.container .row {
+		max-width: 500px;
+		margin: auto;
+
+	}*/
+/* } */
